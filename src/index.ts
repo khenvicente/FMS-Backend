@@ -36,6 +36,9 @@ app.use((err: any, _req: express.Request, res: express.Response, _next: express.
 
 sequelize.authenticate()
   .then(() => {
+    app.listen(PORT, () => {
+      console.log("Server running");
+    });
     console.log("Database connected!");
     return sequelize.sync();
   })
@@ -52,3 +55,4 @@ sequelize.authenticate()
 //   .catch((err: any) => {
 //     console.error('Database sync failed:', err);
 //   });
+
