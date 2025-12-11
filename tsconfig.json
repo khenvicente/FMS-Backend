@@ -8,7 +8,9 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["node"],
     "outDir": "./dist",
+    "rootDir": "src"
   },
   "include": ["src/**/*", "seeders/20251303130932-familiar-seeder.js", "types"],
   "exclude": ["node_modules"]
+
 }
