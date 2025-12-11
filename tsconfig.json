@@ -16,7 +16,8 @@
     "./controllers/**/*",
     "./config/**/*",
     "./migration/**/*"
-  ]
+  ],
   "exclude": ["node_modules"]
 }
+
 
